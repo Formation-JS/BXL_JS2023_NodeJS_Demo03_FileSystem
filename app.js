@@ -12,6 +12,4 @@ const guestService = require("./services/guest1.service");
     for (const person of people) {
         console.log(`- ${person.firstname} ${person.lastname}`);
     }
-
-
 })();
